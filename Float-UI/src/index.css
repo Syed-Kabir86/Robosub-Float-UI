@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: linear-gradient(#6de5fd, #002453);
+    font-family: 'Sofia Sans', Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.top-bar {
+    background-image: linear-gradient(rgb(157, 252, 220), #a3bddf);
+    background-color: rgb(157, 252, 220);
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px balck;
+    padding: 20px;
+    margin: 10px;
+    max-width: auto;
+    display: flex;
+    max-height: 100px;
+    justify-content: left;
+    
+}
+
+.top-bar .logo-img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.top-bar .title {
+    margin-left: 10px;
+    color: rgb(50, 163, 163);
+    max-width: 300px;
+}
+
+.main-container {
+    background-image: linear-gradient(rgb(157, 252, 220), #7b8ea7);
+    background-color: rgb(157, 252, 220);
+    border: 2px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px balck;
+    padding: 10px;
+    margin: 10px;
+    max-width: auto;
+    min-height: 454px;
+    display: flex;
+    display: block;
+}
+
+#start-instruction {
+    font-size: 28px;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#start-btn {
+    background-color: rgb(115, 211, 211);
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-top: 20px;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 40px;
+    font-size: 45px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
