@@ -68,3 +68,11 @@ body {
     height: 100px;
     text-align: center;
 }
+
+.graph-container {
+    border: 5px solid white;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(248, 239, 239);
+}
